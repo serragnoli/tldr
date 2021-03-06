@@ -18,3 +18,7 @@
 - Execute a single Scala command in the command line:
 
 `scala -e {{command}}`
+
+- Start the interpreter with a fat jar in the classpath:
+
+`scala -cp {{filename.jar}} {{command}}`
