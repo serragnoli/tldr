@@ -7,6 +7,10 @@
 
 `scala`
 
+- Start the interpreter with a fat jar in the classpath:
+
+`scala -cp {{filename.jar}} {{command}}`
+
 - Execute a Scala script:
 
 `scala {{script.scala}}`
@@ -19,6 +23,3 @@
 
 `scala -e {{command}}`
 
-- Start the interpreter with a fat jar in the classpath:
-
-`scala -cp {{filename.jar}} {{command}}`
